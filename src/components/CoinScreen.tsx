@@ -25,16 +25,11 @@ const CoinScreen: React.FC= () =>{
     const[loading, setLoading] = React.useState(false);
 
     const getData = async () =>{
-        
-
         const res = await axios.get('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids='+ id +'&order=market_cap_desc&per_page=1&page=1&sparkline=false')
             //'https://api.coingecko.com/api/v3/coins/' + id
-
-        console.log(id)
-        setCoin(res.data);
-        console.log(coin)
+        setCoin(res.data[0]);
     }
-  
+
     React.useEffect(()=>{
         getData()
     }, []);
@@ -63,7 +58,7 @@ const CoinScreen: React.FC= () =>{
                             alignItems="center"
                             direction="row">
                             <Image
-                                src="https://assets.econsultancy.com/images/resized/0004/6445/screen_shot_2014-04-02_at_11.54.33-blog-full.png"
+                                src={coin.image}
                                 borderRadius="full"
                                 boxSize="80px"
                                 padding={3}
@@ -75,6 +70,8 @@ const CoinScreen: React.FC= () =>{
                                 height="100%"
                                 textShadow="0 0 0.125em hsl(0 0% 10% / 0.1), 0 0 0.1em #f1f3f4"
                                 color="#f1f3f4"
+                                textOverflow="ellipsis"
+                                whiteSpace="nowrap"
                             >
                                 {
                                     coin.id
