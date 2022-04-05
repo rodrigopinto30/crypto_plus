@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import { ImArrowDownRight2, ImArrowUpRight2 } from "react-icons/im";
 import { useParams } from "react-router-dom";
 import Footer from "./Footer";
+import accounting from 'accounting';
 
 const CoinScreen: React.FC= () =>{
     const price: number = 10054.3;
@@ -106,7 +107,7 @@ const CoinScreen: React.FC= () =>{
                                 fontWeight="bold"
                                 color={coin.price_change_percentage_24h > 0 ? "green.400": "red.400"}
                                 backgroundColor="whiteAlpha.300"
-                            > $ {coin.current_price} </Text>
+                            > {accounting.formatMoney(coin.current_price)} </Text>
                         </Stack>
                     </Stack>
 
@@ -131,7 +132,7 @@ const CoinScreen: React.FC= () =>{
                                     textShadow="0 0 0.125em hsl(0 0% 10% / 0.1), 0 0 0.1em #f1f3f4"
                                     fontSize="2em"
                                 >
-                                    {coin.market_cap}
+                                    {accounting.formatMoney(coin.market_cap)}
                                 </Text>
                             </Stack>
                             <Stack spacing={0} direction="column">
@@ -160,7 +161,7 @@ const CoinScreen: React.FC= () =>{
                                     color="#f1f3f4"
                                     textShadow="0 0 0.125em hsl(0 0% 10% / 0.1), 0 0 0.1em #f1f3f4"
                                     fontSize="2em"
-                                > {coin.circulating_supply} </Text>
+                                > {accounting.formatNumber(coin.circulating_supply)} </Text>
                             </Stack>
                             <Stack direction="column" spacing={0}>
                                 <Text
@@ -172,7 +173,7 @@ const CoinScreen: React.FC= () =>{
                                     color="#f1f3f4"
                                     textShadow="0 0 0.125em hsl(0 0% 10% / 0.1), 0 0 0.1em #f1f3f4"
                                     fontSize="2em"
-                                > {coin.total_supply} </Text>
+                                > {accounting.formatNumber(coin.total_supply)} </Text>
                             </Stack>
                             {/* <Stack direction="column" spacing={0}>
                                 <Text
@@ -209,7 +210,7 @@ const CoinScreen: React.FC= () =>{
                                     color="#f1f3f4"
                                     textShadow="0 0 0.125em hsl(0 0% 10% / 0.1), 0 0 0.1em #f1f3f4"
                                     fontSize="2em"
-                                > {coin.total_volume} </Text>
+                                > {accounting.formatMoney(coin.total_volume)} </Text>
                             </Stack>
                         </Stack>
                     </Stack>
