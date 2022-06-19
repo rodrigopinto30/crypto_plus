@@ -24,17 +24,15 @@ const Noticia: React.FC = () =>{
                         paddingBottom="0%"
                         paddingTop="1%"
                     >
-                        El Bitcoin rompió la marca de USD 42.000: cuál es el nuevo factor que vuelve a 
-                        impulsar al mundo “cripto”
+                        Con el agua del Bitcoin en sus rodillas, Bukele sugiere "no mirar gráficos y disfrutar de la vida"
                     </Text>
                     <Text color="white">
-                        El Bitcoin rompió este martes la marca de los USD 42.000 con la noticia de que el fondo de 
-                        cobertura Bridgewater Associates de Ray Dalio está listo para invertir en la criptomoneda más importante
-                        del mundo. El precio de Bitcoin llegó a subir al mediodía un 4% a 42.571 dólares.
-
-                        En la última semana, el Bitcoin sube un 8% y ahora vuelve a superar la barrera de USD 42.000 por primera
-                        vez desde el 3 de marzo, cuando el mercado “cripto” acusó el impacto de la inestabilidad financiera 
-                        global por la invasión rusa a Ucrania.
+                        Asumiendo una postura de "inversor zen", el presidente de El Salvador, Nayib Bukele, llamó este sábado a 
+                        relativizar la tremenda caída en las cotizaciones del Bitcoin, señalando que la "paciencia es la clave" del universo 
+                        critpo. Sucede que el Bitcoin, la criptomoneda de curso legal en ese país centroamericano, cayó esta 
+                        semana por debajo del "piso imposible" de 20 mil dólares, en el marco de una corrida global que ya ha costado miles 
+                        de millones de dólares a inversores de todo el planeta, y nadie arriesga a considerar todavía que esa caída 
+                        este cerca de su "rebote".
                     </Text>
                 </Stack>
 
@@ -52,14 +50,18 @@ const Noticia: React.FC = () =>{
                             paddingBottom="0%"
                             paddingTop="1%"
                         >
-                            Precio Bitcoin y criptomonedas: por qué es la única que vuelve a bajar
+                            Los críticos de Bitcoin dicen que el precio de BTC va a USD 0 esta vez, pero estas 
+                            3 señales sugieren lo contrario
 
                         </Text>
                         <Text color="white">
-                            Al abrir esta semana, el precio de Bitcoin, la criptomoneda más grande del mundo, vuelve a estar 
-                            en caída, aunque esta vez más leve. No es así en el caso de Ethereum que presentó una caída en el 
-                            precio. Por su parte, BNB, el token nativo de la red Binance también presentó saldo 
-                            positivo en las últimas 24 horas. Las altcoins XRP, Luna y ADA también crecieron casi un 5%.
+                            Como un reloj, el inicio de un criptomercado bajista ha sacado a la luz a la multitud que opina que "Bitcoin 
+                            está muerto" y que proclama alegremente el final de la criptomoneda más grande por capitalización de mercado.
+                            <br/>
+                            De hecho, los últimos meses han sido dolorosos para los inversores y el precio de BTC ha 
+                            caído a un nuevo mínimo de 2022 a USD 20,100, pero es probable que las nuevas llamadas a la 
+                            desaparición del activo sufran el mismo destino que las 452 predicciones anteriores que 
+                            proclaman su muerte.
                         </Text>
                     </Stack>
 
@@ -77,15 +79,16 @@ const Noticia: React.FC = () =>{
                             paddingBottom="0%"
                             paddingTop="1%"
                         >
-                            Bitcoin y las criptomonedas: los inversores pierden el miedo y todas vuelven a subir
+                            ¿Tenía razón Warren Buffett? Tres motivos por los que nunca compró Bitcoin    
                         </Text>
                         <Text color="white">
-                            En el día de ayer, en un movimiento diferente al habitual, Bitcoin se estancaba en su precio 
-                            intradiario mientras que el mercado de monedas alternativas se revalorizaba. Las principales altcoins
-                            superaron a las principales criptomonedas. A excepción de las monedas estables, todos los principales 
-                            tokens digitales cotizaron al alza hoy martes. XRP aumentó un 7 por ciento, seguido de un aumento del 6 
-                            por ciento en Cardano. Avalanche saltó un 5 por ciento, mientras que Ethereum y Shiba Inu sumaro casi un 
-                            4 por ciento cada uno. 
+                            La caída del Bitcoin ha sido tan pronunciada que tras incluso tocó los 21,200 dólares por 
+                            unidad, luego de un año complicado para las criptomonedas, las acciones, y los bonos. La 
+                            capitalización del sector está por debajo del billón de dólares.
+                            <br/>
+                            Este principal activo digital acumula pérdidas de casi 70% desde sus máximos de noviembre, cuando
+                            casi toca los 70,000 dólares. Con el rápido y alto crecimiento que reflejaba su precio, el activo 
+                            digital se presentaba ante los inversionistas como una opción para grandes ganancias.
                         </Text>
                     </Stack>
             </Stack>
